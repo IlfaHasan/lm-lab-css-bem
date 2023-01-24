@@ -2,6 +2,11 @@
     --light: #E7ECEF;
     --dark: #272932;
     }
+    @keyframes example {
+        from {background-color: rgb(13, 31, 103);}
+        to {background-color: rgb(197, 197, 178);}
+      }
+      
 
     .card-container{
         width: 95%;
@@ -11,9 +16,13 @@
         
     }
     .heading{
-        text-align: center;  
-        color:#04145e;
+        text-align: center; 
+        background-color: #04145e; 
+        color:#e6f519;
         font-size: 3rem;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count:infinite;
     }
     
     
